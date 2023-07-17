@@ -1,10 +1,20 @@
 body {
 	margin: 0;
 	padding: 0;
+	--first-color:#9c6ade;
+	--second-color:#e3d0ff;
+	--third-color:#a8dbd1;
+	--for-color:#feddc5;
 }
 
 /* CONTAINERS */
 .container {
 	width: 850px;
 	margin: 0 auto;
+}
+.notice{
+	display:none;
+}
+.nav-list{
+	display:none;
 }
