@@ -53,6 +53,9 @@ body {
 .community {
 	background-color: var(--fourth-color);
 }
+.community .container {
+	background-image: url("../img/community-image-1.png"), url("../img/community-image-2.png");
+}
 .community-title {
 	font-size: 60px;
 }
