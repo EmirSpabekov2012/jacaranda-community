@@ -1,57 +1,76 @@
 body {
 	margin: 0;
 	padding: 0;
+	font-size: 22px;
+	font-family: sans-serif;
 	--first-color:#9c6ade;
 	--second-color:#e3d0ff;
 	--third-color:#a8dbd1;
-	--for-color:#feddc5;
+	--fourth-color:#feddc5;
 }
 
-/* CONTAINERS */
+/* CONTAINER */
 .container {
 	width: 850px;
 	margin: 0 auto;
 }
-.notice{
-	display:none;
+
+/* HEADER */
+.notice {
+	display: none;
 }
-.nav-list{
-	display:none;
+
+.nav-list {
+	display: none;
 }
-.nav-link{
-	font-size:0px;
-	display:block;
-	width:165px;
-	height:41px;
-	background-image:url("../img/logo.png");
+
+.nav-link {
+	font-size: 0px;
+	display: block;
+	width: 165px;
+	height: 41px;
+	background-image: url("../img/logo.png");
 }
-.menu-button{
-	font-size:0px;
-	display:block;
-	width:100px;
-	height:80px;
-	background-color:var(--second-color);
+
+.menu-button {
+	font-size: 0px;
+	display: block;
+	width: 100px;
+	height: 80px;
+	background-color: var(--second-color);
 }
-.main-nav{
-	display:flex;
-	justify-content:space-between;
-	align-content:center;
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
 }
-.community{
-	background-color:#ffe5d8;
+
+/* MAIN */
+
+/* Community section */
+
+.community {
+	background-color: var(--fourth-color);
 }
-.community-title{
+.community-title {
 	font-size: 60px;
 }
-.community-field{
+
+.community-field {
 	width: 200px;
 	height: 54px;
-	border:1px solid #e3d0ff;
+	border: 1px solid var(--second-color);
+	font-size: 14px;
 }
-.community-button{
+
+.community-button {
 	width: 120px;
-	height: 54px;
-	background-color:#e3d0ff;
-	color:#9c6ade;
-	text-align:center;
+	height: 58px;
+	background-color: var(--second-color);
+	color: var(--first-color);
+	text-align: center;
+	border: none;
+	font-size: 14px;
+	margin-left: -5px;
 }
