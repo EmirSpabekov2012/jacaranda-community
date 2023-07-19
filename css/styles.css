@@ -52,7 +52,16 @@ body {
 
 .community {
 	background-color: var(--fourth-color);
+	padding-bottom: 20px;
 }
+
+.community .container {
+	background-image: url("../img/community-image-1.png"), url("../img/community-image-2.png");
+	background-repeat: no-repeat;
+	background-position: left bottom, right bottom;
+	padding: 10px 0 250px 0;
+}
+
 .community-title {
 	font-size: 60px;
 }
@@ -73,4 +82,5 @@ body {
 	border: none;
 	font-size: 14px;
 	margin-left: -5px;
+	cursor: pointer;
 }
