@@ -158,3 +158,16 @@ body {
 	background-repeat: no-repeat;
 	background-size: 194px 118px;
 }
+.launch{
+	background-color: #a8dbd1;
+	padding: 10px 0;
+}
+.launch-container:nth-child(2){
+	display: flex;
+	flex-direction: column;
+}
+.launch .container{
+	background-image: url("../img/startup.png");
+	background-repeat: no-repeat;
+	background-position: 440px 200px;
+}
