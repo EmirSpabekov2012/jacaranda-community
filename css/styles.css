@@ -80,63 +80,81 @@ body {
 	border: none;
 	font-size: 14px;
 	margin-left: -5px;
-	cursor:pointer;
+	cursor: pointer;
 }
-.management{
-	background-color:var(--second-color);
+
+/* Management section */
+
+.management {
+	background-color: var(--second-color);
+	padding: 10px 0;
 }
-.management-link{
+
+.management-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.management-link {
 	display: none;
 }
-.list-item:nth-child(1){
-	font-size:0;
+
+.list-item:nth-child(1) {
+	font-size: 0;
 	display: block;
-	width: 438px;
-	height: 247px;
-	background-image:url("../img/facebook-logo.png");
+	width: 238px;
+	height: 120px;
+	background-image: url("../img/facebook-logo.png");
 	background-repeat: no-repeat;
+	background-size: 238px 120px;
 }
-.list-item:nth-child(2){
-	font-size:0;
+
+.list-item:nth-child(2) {
+	font-size: 0;
 	display: block;
-	width: 210px;
-	height: 50px;
-	background-image:url("../img/intuit-logo.png");
+	width: 238px;
+	height: 120px;
+	background-image: url("../img/intuit-logo.png");
 	background-repeat: no-repeat;
+	background-size: 210px 40px;
 }
-.list-item:nth-child(3){
-	font-size:0;
+
+.list-item:nth-child(3) {
+	font-size: 0;
 	display: block;
-	width: 185px;
-	height: 63px;
-	background-image:url("../img/google-logo.png");
+	width: 238px;
+	height: 120px;
+	background-image: url("../img/google-logo.png");
 	background-repeat: no-repeat;
+	background-size: 185px 63px;
 }
-.list-item:nth-child(4){
-	font-size:0;
+
+.list-item:nth-child(4) {
+	font-size: 0;
 	display: block;
-	width: 240px;
-	height: 59px;
-	background-image:url("../img/linkedin-logo.png");
+	width: 238px;
+	height: 120px;
+	background-image: url("../img/linkedin-logo.png");
 	background-repeat: no-repeat;
+	background-size: 225px 59px;
 }
-.list-item:nth-child(5){
-	font-size:0;
+
+.list-item:nth-child(5) {
+	font-size: 0;
 	display: block;
-	width: 202px;
-	height: 96px;
-	background-image:url("../img/stripe-logo.png");
+	width: 238px;
+	height: 120px;
+	background-image: url("../img/stripe-logo.png");
 	background-repeat: no-repeat;
+	background-size: 202px 96px;
 }
-.list-item:nth-child(6){
-	font-size:0;
+
+.list-item:nth-child(6) {
+	font-size: 0;
 	display: block;
-	width: 194px;
-	height: 118px;
-	background-image:url("../img/uber-logo.png");
+	width: 238px;
+	height: 120px;
+	background-image: url("../img/uber-logo.png");
 	background-repeat: no-repeat;
-}
-.management-list{
-	display: flex;
-	list-style: none;
+	background-size: 194px 118px;
 }
