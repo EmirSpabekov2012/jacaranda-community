@@ -179,3 +179,13 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+.sharing{
+	background-color: #feddc5;
+}
+.sharing .container{
+	background-image: url("../img/enthusiasm-1.png"), url("../img/enthusiasm-2.png");
+	padding: 10px 0 300px;
+	background-repeat: no-repeat;
+	background-position: left bottom, right bottom;
+	background-size: 300px 300px, 300px 300px;	
+}
