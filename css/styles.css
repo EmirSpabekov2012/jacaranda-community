@@ -1,11 +1,17 @@
+/* GLOBALS */
+
+* {
+	box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	padding: 0;
 	font-size: 22px;
-	--first-color: #9c6ade;
-	--second-color: #e3d0ff;
-	--third-color: #a8dbd1;
-	--fourth-color: #feddc5;
+	--first-bg-color: #9c6ade;
+	--second-bg-color: #e3d0ff;
+	--third-bg-color: #a8dbd1;
+	--fourth-bg-color: #feddc5;
 }
 
 /* CONTAINER */
@@ -38,7 +44,7 @@ body {
 	display: block;
 	width: 100px;
 	height: 80px;
-	background-color: var(--second-color);
+	background-color: var(--second-bg-color);
 }
 
 .main-nav {
@@ -52,7 +58,7 @@ body {
 /* Community section */
 
 .community {
-	background-color: var(--fourth-color);
+	background-color: var(--fourth-bg-color);
 	padding-bottom: 20px;
 }
 
@@ -70,15 +76,15 @@ body {
 .community-field {
 	width: 200px;
 	height: 54px;
-	border: 1px solid var(--second-color);
+	border: 1px solid var(--second-bg-color);
 	font-size: 14px;
 }
 
 .community-button {
 	width: 120px;
 	height: 58px;
-	background-color: var(--second-color);
-	color: var(--first-color);
+	background-color: var(--second-bg-color);
+	color: var(--first-bg-color);
 	text-align: center;
 	border: none;
 	font-size: 14px;
@@ -89,7 +95,7 @@ body {
 /* Management section */
 
 .management {
-	background-color: var(--second-color);
+	background-color: var(--second-bg-color);
 	padding: 10px 0;
 }
 
@@ -179,11 +185,15 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-.sharing{
-	background-color: #feddc5;
+
+/* Sharing ssection */
+
+.sharing {
+	background-color: var(--fourth-bg-color);
 }
-.sharing .container{
-	background-image: url("../img/enthusiasm-1.png"), url("../img/enthusiasm-2.png");
+
+.sharing .container {
+	background-image: url("../img/enthusiasm-2.png"), url("../img/enthusiasm-1.png");
 	padding: 10px 0 300px;
 	background-repeat: no-repeat;
 	background-position: left bottom, right bottom;
