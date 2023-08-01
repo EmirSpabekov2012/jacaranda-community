@@ -199,3 +199,19 @@ body {
 	background-position: left bottom, right bottom;
 	background-size: 300px 300px, 300px 300px;	
 }
+.page-footer .container .footer-container{
+	background-image: url("../img/stanford.jpg");
+	background-color: rgba(139, 0, 255, 0.3);
+	background-blend-mode: multiply;
+	padding:100px 50px 400px 50px;
+	width: 850px;
+}
+.page-footer .container{
+	display: flex;
+}
+.footer-aside{
+	display: none;
+}
+.page-footer{
+		background-color: rgba(139, 0, 255, 0.3);
+}
