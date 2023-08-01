@@ -108,63 +108,46 @@ body {
 	display: none;
 }
 
-.list-item:nth-child(1) {
-	font-size: 0;
-	display: block;
-	width: 238px;
-	height: 120px;
-	background-image: url("../img/facebook-logo.png");
-	background-repeat: no-repeat;
-	background-size: 238px 120px;
-}
-
-.list-item:nth-child(2) {
-	font-size: 0;
-	display: block;
-	width: 238px;
-	height: 120px;
-	background-image: url("../img/intuit-logo.png");
-	background-repeat: no-repeat;
-	background-size: 210px 40px;
-}
-
-.list-item:nth-child(3) {
-	font-size: 0;
-	display: block;
-	width: 238px;
-	height: 120px;
-	background-image: url("../img/google-logo.png");
-	background-repeat: no-repeat;
-	background-size: 185px 63px;
-}
-
-.list-item:nth-child(4) {
-	font-size: 0;
-	display: block;
-	width: 238px;
-	height: 120px;
-	background-image: url("../img/linkedin-logo.png");
-	background-repeat: no-repeat;
-	background-size: 225px 59px;
-}
-
-.list-item:nth-child(5) {
-	font-size: 0;
-	display: block;
-	width: 238px;
-	height: 120px;
-	background-image: url("../img/stripe-logo.png");
-	background-repeat: no-repeat;
-	background-size: 202px 96px;
-}
-
+.list-item:nth-child(1),
+.list-item:nth-child(2),
+.list-item:nth-child(3),
+.list-item:nth-child(4),
+.list-item:nth-child(5),
 .list-item:nth-child(6) {
 	font-size: 0;
 	display: block;
 	width: 238px;
 	height: 120px;
-	background-image: url("../img/uber-logo.png");
 	background-repeat: no-repeat;
+}
+
+.list-item:nth-child(1) {
+	background-image: url("../img/facebook-logo.png");
+	background-size: 238px 120px;
+}
+
+.list-item:nth-child(2) {
+	background-image: url("../img/intuit-logo.png");
+	background-size: 210px 40px;
+}
+
+.list-item:nth-child(3) {
+	background-image: url("../img/google-logo.png");
+	background-size: 185px 63px;
+}
+
+.list-item:nth-child(4) {
+	background-image: url("../img/linkedin-logo.png");
+	background-size: 225px 59px;
+}
+
+.list-item:nth-child(5) {
+	background-image: url("../img/stripe-logo.png");
+	background-size: 202px 96px;
+}
+
+.list-item:nth-child(6) {
+	background-image: url("../img/uber-logo.png");
 	background-size: 194px 118px;
 }
 
@@ -199,19 +182,29 @@ body {
 	background-position: left bottom, right bottom;
 	background-size: 300px 300px, 300px 300px;	
 }
-.page-footer .container .footer-container{
+
+/* FOOTER */
+
+.page-footer {
+	background-color: rgba(139, 0, 255, 0.3);
+}
+
+.page-footer .container {
+	display: flex;
+}
+
+/* Footer container section */
+
+.footer-container {
 	background-image: url("../img/stanford.jpg");
 	background-color: rgba(139, 0, 255, 0.3);
 	background-blend-mode: multiply;
 	padding:100px 50px 400px 50px;
 	width: 850px;
 }
-.page-footer .container{
-	display: flex;
-}
-.footer-aside{
+
+/* Footer aside */
+
+.footer-aside {
 	display: none;
-}
-.page-footer{
-		background-color: rgba(139, 0, 255, 0.3);
 }
