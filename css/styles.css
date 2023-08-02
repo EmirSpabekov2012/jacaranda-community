@@ -20,11 +20,24 @@ body {
 	width: 850px;
 	margin: 0 auto;
 }
+@media(min-width:1785px){
+	.container{
+		width: 1785px;
+	}
+}
 
 /* HEADER */
 
 .notice {
 	display: none;
+}
+@media(min-width:1785px){
+	.notice{
+		display: block;
+		background-color: var(--first-bg-color);
+		color: white;
+		text-align: center;
+	}
 }
 
 .nav-list {
