@@ -8,6 +8,7 @@ body {
 	margin: 0;
 	padding: 0;
 	font-size: 22px;
+	font-family: sans-serif;
 	--first-bg-color: #9c6ade;
 	--second-bg-color: #e3d0ff;
 	--third-bg-color: #a8dbd1;
