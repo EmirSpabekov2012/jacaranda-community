@@ -48,7 +48,7 @@ body {
 	display: none;
 }
 
-.nav-link {
+.nav-logo .nav-link {
 	display: block;
 	width: 165px;
 	height: 41px;
@@ -69,7 +69,28 @@ body {
 	justify-content: space-between;
 	align-content: center;
 }
-
+@media(min-width:1785px){
+	.nav-list{
+		display: flex;
+		justify-content: flex-start;
+		list-style: none;
+	}
+	.nav-list .nav-item{
+		margin: 5px 10px 0 0;
+		padding-top: 10px;
+	}
+	.nav-item .nav-link{
+		text-transform: uppercase;
+		text-decoration: none;
+		color: #000000;
+	}
+	.menu-button{
+		display: none;
+	}
+	.main-nav{
+		justify-content: flex-start;
+	}
+}
 /* MAIN */
 
 /* Community section */
