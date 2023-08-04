@@ -153,6 +153,18 @@ body {
 	margin-left: -5px;
 	cursor: pointer;
 }
+@media(min-width:1785px){
+	.community-title{
+		width: 803px;
+	}
+	.community-text{
+		width: 617px;
+	}
+	.community .container{
+		background-position: 1000px center,1300px center;
+		padding: 10px 0;
+	}
+}
 
 /* Management section */
 
