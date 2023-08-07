@@ -214,6 +214,7 @@ body {
 	background-image: url("../img/google-logo.png");
 	background-size: 185px 63px;
 }
+
 .list-item:nth-child(4) {
 	background-image: url("../img/linkedin-logo.png");
 	background-size: 225px 59px;
@@ -228,20 +229,24 @@ body {
 	background-image: url("../img/uber-logo.png");
 	background-size: 194px 118px;
 }
+
 @media(min-width:1785px){
-	.management-title{
+	.management-title {
 		display: block;
 		width: 587px;
 	}
-	.management-text{
+
+	.management-text {
 		display: block;
 		width:683px;
 	}
-	.management-title, .management-text{
+
+	.management-title, .management-text {
 		margin:20px auto;
 		padding: 20px 0;
 	}
-	.management-link{
+
+	.management-link {
 		display: block;
 		margin: 20px auto;
 		width: 120px;
@@ -250,7 +255,8 @@ body {
 		text-align:center;
 		padding: 20px 0;
 	}
-	.management .container .management-title{
+
+	.management .container .management-title {
 		display: block;
 		width: 700px;
 		margin: 20px auto;
@@ -259,6 +265,7 @@ body {
 		padding: 20px 0;
 	}
 }
+
 /* Launch section */
 
 .launch {
