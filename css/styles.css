@@ -251,7 +251,7 @@ body {
 		margin: 20px auto;
 		width: 120px;
 		text-transform: uppercase;
-		color: #9c6ade;
+		color: var(--first-bg-color);
 		text-align:center;
 		padding: 20px 0;
 	}
@@ -269,7 +269,7 @@ body {
 /* Launch section */
 
 .launch {
-	background-color: #a8dbd1;
+	background-color: var(--third-bg-color);
 	padding: 10px 0;
 }
 
@@ -283,24 +283,29 @@ body {
 	display: flex;
 	flex-direction: column;
 }
-@media(min-width:1785px){
-	.launch .container{
+
+@media(min-width:1785px) {
+	.launch .container {
 		display: flex;
 		justify-content: flex-start;
 		background-position: 1000px 100px;
 	}
-	.launch{
-		padding: 50px 0 25px 0 ;
+
+	.launch {
+		padding: 50px 0 25px 0;
 	}
-	.launch-title{
+
+	.launch-title {
 		display: block;
 		width: 587px;
 	}
-	.launch-container .text{
+
+	.launch-container .text {
 		display: block;
 		width: 610px;
 	}
-	.launch-container:nth-child(1){
+
+	.launch-container:nth-child(1) {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -324,7 +329,7 @@ body {
 /* FOOTER */
 
 .page-footer {
-	background-color: rgba(139, 0, 255, 0.3);
+	background-color: var(--second-bg-color);
 }
 
 .page-footer .container {
@@ -335,7 +340,7 @@ body {
 
 .footer-container {
 	background-image: url("../img/stanford.jpg");
-	background-color: rgba(139, 0, 255, 0.3);
+	background-color: var(--second-bg-color);
 	background-blend-mode: multiply;
 	padding:100px 50px 400px 50px;
 	width: 850px;
