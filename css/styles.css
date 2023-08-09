@@ -325,6 +325,24 @@ body {
 	background-position: left bottom, right bottom;
 	background-size: 300px 300px, 300px 300px;	
 }
+@media(min-width:1785px){
+	.sharing-title{
+		display: block;
+		width: 587px;
+	}
+	.sharing-text{
+		display: block;
+		width: 610px;
+	}
+	.sharing .container{
+		display: flex;
+		align-items: flex-end;
+		flex-direction: column;
+		padding-top: 100px;
+		padding-bottom:100px ;
+		background-position: 0px center,300px center;
+	}
+}
 
 /* FOOTER */
 
