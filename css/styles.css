@@ -280,13 +280,17 @@ body {
 }
 
 @media(min-width:1785px){
-	.management-title {
+	.management-title, 
+	.management-text,
+	.management-link {
 		display: block;
+	}
+
+	.management-title {
 		width: 587px;
 	}
 
 	.management-text {
-		display: block;
 		width:683px;
 	}
 
@@ -296,7 +300,6 @@ body {
 	}
 
 	.management-link {
-		display: block;
 		margin: 20px auto;
 		width: 120px;
 		text-transform: uppercase;
@@ -344,13 +347,16 @@ body {
 		padding: 50px 0 25px 0;
 	}
 
-	.launch-title {
+	.launch-title,
+	.launch-container .text {
 		display: block;
+	}
+
+	.launch-title {
 		width: 587px;
 	}
 
 	.launch-container .text {
-		display: block;
 		width: 610px;
 	}
 
@@ -376,13 +382,16 @@ body {
 }
 
 @media(min-width:1785px) {
-	.sharing-title {
+	.sharing-title, 
+	.sharing-text {
 		display: block;
+	}
+
+	.sharing-title {
 		width: 587px;
 	}
 
 	.sharing-text{
-		display: block;
 		width: 610px;
 	}
 
