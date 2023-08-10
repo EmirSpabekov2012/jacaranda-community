@@ -62,6 +62,10 @@ body {
 	--second-bg-color: #e3d0ff;
 	--third-bg-color: #a8dbd1;
 	--fourth-bg-color: #feddc5;
+	--first-text-color: #000000;
+	--fifth-bg-color: #5300c6;
+	--second-text-color: #ffffff;
+	--third-text-color: #888888;
 	--tablet-width: 850px;
 	--desktop-width: 1785px;
 }
@@ -88,7 +92,7 @@ body {
 @media(min-width: 1785px){
 	.notice {
 		display: block;
-		color: white;
+		color: var(--second-text-color);
 		text-align: center;
 		background-color: var(--first-bg-color);
 	}
@@ -96,12 +100,17 @@ body {
 
 /* HEADER */
 
-.nav-list {
+.nav-list,
+.sign-up {
 	display: none;
 }
 
+.menu-button,
 .nav-logo .nav-link {
 	display: block;
+}
+
+.nav-logo .nav-link {
 	width: 165px;
 	height: 41px;
 	font-size: 0px;
@@ -109,7 +118,6 @@ body {
 }
 
 .menu-button {
-	display: block;
 	width: 100px;
 	height: 80px;
 	font-size: 0px;
@@ -120,10 +128,6 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-content: center;
-}
-
-.sign-up {
-	display: none;
 }
 
 @media(min-width:1785px) {
@@ -141,7 +145,7 @@ body {
 	.nav-item .nav-link {
 		text-transform: uppercase;
 		text-decoration: none;
-		color: #000000;
+		color: var(--first-text-color);
 	}
 
 	.menu-button {
@@ -430,25 +434,39 @@ body {
 .footer-aside {
 	display: none;
 } 
-@media(min-width:1785px){
+@media(min-width: 1000px) {
 	.footer-aside{
 		display: block;
+		margin: 10px 0 0 10px;
 	}
-	.footer-field{
+
+	.footer-field {
 		width: 200px;
 		font-size: 14px;
-		color: #888;
-		border: 1px solid #9c6ade; 
+		color: var(--third-text-color);
+		border: 1px solid var(--first-bg-color); 
 		padding: 10px 0;
+		background: transparent;
 	}
-	.footer-button{
+
+	.footer-button {
 		width: 120px;
-		background-color: #5300c6;
+		background-color: var(--fifth-bg-color);
 		padding: 10px 5px;
-		color: white;
-	}
-	.footer-note{
-		color: white;
+		color: var(--second-text-color);
 		font-size: 14px;
+		border: none;
+		cursor: pointer;
+	}
+
+	.footer-note {
+		color: var(--second-text-color);
+		font-size: 14px;
+	}
+
+	.footer-logo {
+		color: var(--second-text-color);
+		font-size: 30px;
+		text-transform: lowercase;
 	}
 }
