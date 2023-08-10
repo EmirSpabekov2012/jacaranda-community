@@ -430,3 +430,25 @@ body {
 .footer-aside {
 	display: none;
 } 
+@media(min-width:1785px){
+	.footer-aside{
+		display: block;
+	}
+	.footer-field{
+		width: 200px;
+		font-size: 14px;
+		color: #888;
+		border: 1px solid #9c6ade; 
+		padding: 10px 0;
+	}
+	.footer-button{
+		width: 120px;
+		background-color: #5300c6;
+		padding: 10px 5px;
+		color: white;
+	}
+	.footer-note{
+		color: white;
+		font-size: 14px;
+	}
+}
