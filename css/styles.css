@@ -156,7 +156,7 @@ body {
 	display: none;
 }
 
-@media(min-width:1785px) {
+@media(min-width: 1785px) {
 	.nav-list {
 		display: flex;
 		justify-content: flex-start;
@@ -235,7 +235,7 @@ body {
 	cursor: pointer;
 }
 
-@media(min-width:1785px){
+@media(min-width: 1785px){
 	.community-title {
 		width: 803px;
 	}
@@ -309,7 +309,7 @@ body {
 	background-size: 194px 118px;
 }
 
-@media(min-width:1785px){
+@media(min-width: 1785px){
 	.management-title, .management-text, .management-link, .management .container .management-title {
 		display: block;
 		margin:20px auto;
@@ -357,7 +357,7 @@ body {
 	flex-direction: column;
 }
 
-@media(min-width:1785px) {
+@media(min-width: 1785px) {
 	.launch .container {
 		display: flex;
 		justify-content: flex-start;
@@ -402,7 +402,7 @@ body {
 	background-size: 300px 300px, 300px 300px;	
 }
 
-@media(min-width:1785px) {
+@media(min-width: 1785px) {
 	.sharing-title, 
 	.sharing-text {
 		display: block;
@@ -452,7 +452,7 @@ body {
 	display: none;
 }
 
-@media(min-width:1785px) {
+@media(min-width: 1785px) {
 	.footer-aside {
 		display: block;
 	}
