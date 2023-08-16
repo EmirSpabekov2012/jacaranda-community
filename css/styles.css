@@ -124,23 +124,28 @@ body {
 	background-color: var(--second-bg-color);
 	position: relative;
 }
-.menu-button span{
+
+.menu-button span {
+	left: 19px;
+	width: 60px;
+	height: 1px;
 	display: block;
 	position: absolute;
-	width: 60px;
-	height: 5px;
 	background-color: #8F949D;
-	left: 5px;
 }
-.menu-button span:nth-child(1){
-	top: 10px;
+
+.menu-button span:nth-child(1) {
+	top: 20px;
 }
-.menu-button span:nth-child(2){
-	top: 30px;
+
+.menu-button span:nth-child(2) {
+	top: 40px;
 }
-.menu-button span:nth-child(3){
-	top: 50px;
+
+.menu-button span:nth-child(3) {
+	top: 60px;
 }
+
 .main-nav {
 	display: flex;
 	justify-content: space-between;
